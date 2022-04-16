@@ -1,0 +1,6 @@
+from math import log
+from math import ceil
+a, b = input().split(" ")
+a = int(a)
+b = int(b)
+print(ceil(log(1.5, b/a)))
